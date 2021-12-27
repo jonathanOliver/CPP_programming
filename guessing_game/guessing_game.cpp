@@ -8,7 +8,8 @@ int main(){
     cout << "************************************************************************************************" << endl;
     
     //const var
-    const int NUMBER_SECRET = 90;
+    //const int NUMBER_SECRET = 90;
+    const int NUMBER_SECRET = rand() % 100 + 1;
 
     //vars
     int total_attempt = 0;
