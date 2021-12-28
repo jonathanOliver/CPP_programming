@@ -10,6 +10,7 @@ int main(){
     //const var
     //const int NUMBER_SECRET = 90;
     const int NUMBER_SECRET = rand() % 100 + 1;
+    double point = 1000.0;
 
     //vars
     int total_attempt = 0;
@@ -69,8 +70,10 @@ int main(){
             
         }else if(larger){
             cout<< "Your kick value is larger!!! (*~*)" << endl;
+            point = point- ( abs(kick - NUMBER_SECRET) /2);
         }else{
             cout<< "Your kick value is smaller!!! (*~*)" << endl;
+            point = point- ( abs(kick - NUMBER_SECRET) /2);
         }
 
        
@@ -78,6 +81,7 @@ int main(){
 
     cout<< "End of the game!!!" << endl;
     cout<< "You got it right in a number of attempts "<< attempt << endl;
+    cout<< "Your Points >>  "<< point << endl;
     
 }
 
