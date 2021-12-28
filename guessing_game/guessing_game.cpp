@@ -8,9 +8,6 @@ int main(){
     cout << "************************************************************************************************" << endl;
     cout << "********************************* Welcome to the guessing game *********************************" << endl;
     cout << "************************************************************************************************" << endl;
-    
-    //const var
-    //const int NUMBER_SECRET = 90;
 
     srand(time(NULL));
     const int NUMBER_SECRET = rand() % 100;
@@ -56,14 +53,12 @@ int main(){
             break;
         }
 
-    
-
         cout << "dificult " << dificult << endl;
         cout << "Attempt " << attempt << endl;
         cout<< "What's your kick?" << endl;
+
         //vars        
         int kick;
-
         cin >> kick;
     
         //conditionals vars
