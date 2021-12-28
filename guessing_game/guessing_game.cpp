@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string.h>
 using namespace std;
 
 int main(){
@@ -37,8 +38,8 @@ int main(){
              total_attempt = 3;
              break;
         default :
-             total_attempt = 10;
-             break;
+            cout<< "End of the game, Restart game! chosen difficulty does not exist!!!!! (*~*)" << endl;
+            break;
     }
 
     int attempt = 0;
@@ -46,11 +47,13 @@ int main(){
     while(incorrect){
         attempt++;
         if(attempt > total_attempt){
-            cout<< "End of the game!!! (*~*)" << endl;
+            cout<< "End of the game,!!! (*~*)" << endl;
             cout<< "Total exceeded attempts according to difficulty level >> "<< attempt << endl;
             point = 0.00;
             break;
         }
+
+    
 
         cout << "dificult " << dificult << endl;
         cout << "Attempt " << attempt << endl;
