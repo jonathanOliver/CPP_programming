@@ -34,7 +34,7 @@ int main(){
     cout << "********************************* Welcome to the Focuses game *********************************" << endl;
     cout << "************************************************************************************************" << endl;
 
-    cout << "\n\n--- Type a letter ---" << endl;
+    cout << "\n\n--- Type a letter ---\n" << endl;
 
     //não acertou
     bool didnt_hitt = true;
