@@ -1,5 +1,6 @@
 #include <iostream>
-#include <string.h>
+#include <cstdlib>
+#include <ctime>
 using namespace std;
 
 int main(){
@@ -10,10 +11,12 @@ int main(){
     
     //const var
     //const int NUMBER_SECRET = 90;
-    const int NUMBER_SECRET = rand() % 100 + 1;
-    double point = 1000.0;
+
+    srand(time(NULL));
+    const int NUMBER_SECRET = rand() % 100;
 
     //vars
+    double point = 1000.0;
     int total_attempt = 0;
     bool incorrect = true;
 
