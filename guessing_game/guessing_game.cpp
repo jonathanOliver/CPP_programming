@@ -48,6 +48,7 @@ int main(){
         if(attempt > total_attempt){
             cout<< "End of the game!!! (*~*)" << endl;
             cout<< "Total exceeded attempts according to difficulty level >> "<< attempt << endl;
+            point = 0.00;
             break;
         }
 
@@ -70,10 +71,10 @@ int main(){
             
         }else if(larger){
             cout<< "Your kick value is larger!!! (*~*)" << endl;
-            point = point- ( abs(kick - NUMBER_SECRET) /2);
+            point = point - ( abs(kick - NUMBER_SECRET) /2.0);
         }else{
             cout<< "Your kick value is smaller!!! (*~*)" << endl;
-            point = point- ( abs(kick - NUMBER_SECRET) /2);
+            point = point - ( abs(kick - NUMBER_SECRET) /2.0);
         }
 
        
