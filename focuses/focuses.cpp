@@ -45,8 +45,7 @@ int main(){
     while ( didnt_hitt && didnt_hang ){
         for (char word : SECRET_WORD ){
             if(kicking[word]){
-                cout << "\n\n";
-                cout << "Letter "<< word << " has already been typed >> " << endl;
+                cout <<  word << " " << endl;
             }else{
                 cout << "_ ";
             }
@@ -58,9 +57,9 @@ int main(){
         kicking[kick] = true;
 
         if(kick_exists( kick )){
-             cout << "congrats Your kick correct >> " << kick << endl;
+             cout << "congrats Your kick correct! " << endl;
         }else{
-            cout << "Your kick incorrect (*~*) >> " << kick << endl;
+            cout << "Your kick incorrect (*~*) ! " << endl;
         }
 
     }
