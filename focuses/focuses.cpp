@@ -1,4 +1,7 @@
 
+//Exists Function C++ version 11
+//Compile g++ focuses.cpp  -o focuses.out -std=c++11
+
 #include <iostream>
 #include <string>
 #include <cctype>
@@ -8,14 +11,13 @@ using namespace std;
 const string SECRET_WORD = "MELANCIA";
 
 bool kick_exists (char kick){
-
-    int i = 0;
-    for(i; i < SECRET_WORD.size(); i++){
-        if(kick == SECRET_WORD[i] ){
+    
+    for(char word : SECRET_WORD){
+         if(kick == word ){
             return true;
         }
     }
-    
+
     return false;
 }
 
