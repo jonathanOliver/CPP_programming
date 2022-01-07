@@ -2,7 +2,7 @@
 #include<map>
 #include<vector>
 
-#include "letter_exists.cpp"
+#include "letter_exists.hpp"
  
 std::map<char, bool> kicked;
 std::vector<char> wrong_kicks;

@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 
-#include "save_archive.cpp"
+#include "save_archive.hpp"
 
 
 void add_word(){

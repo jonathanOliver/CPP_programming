@@ -7,17 +7,17 @@
 #include <cstdlib>
 
 //functions
-#include "add_word.cpp"
-#include "didnt_hang"
-#include "dint_right.cpp"
-#include "kick_word.cpp"
-#include "letter_exists.cpp"
-#include "print_erros.cpp"
-#include "print_header.cpp"
-#include "print_word.cpp"
-#include "raffle_word.cpp"
-#include "read_file.cpp"
-#include "save_archive.cpp"
+#include "add_word.hpp"
+#include "didnt_hang.hpp"
+#include "dint_right.hpp"
+#include "kick_word.hpp"
+#include "letter_exists.hpp"
+#include "print_erros.hpp"
+#include "print_header.hpp"
+#include "print_word.hpp"
+#include "raffle_word.hpp"
+#include "read_file.hpp"
+#include "save_archive.hpp"
 
 using namespace std;
 
