@@ -12,7 +12,7 @@
 #include "dint_right.hpp"
 #include "kick_word.hpp"
 #include "letter_exists.hpp"
-#include "print_erros.hpp"
+#include "print_errors.hpp"
 #include "print_header.hpp"
 #include "print_word.hpp"
 #include "raffle_word.hpp"

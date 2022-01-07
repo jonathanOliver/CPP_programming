@@ -3,6 +3,7 @@
 #include <string>
 
 #include "save_archive.hpp"
+#include "read_file.hpp"
 
 
 void add_word(){
@@ -10,7 +11,7 @@ void add_word(){
     std::string new_word;
     std::cin >> new_word;
 
-    std::vector<string> list_words = read_file();
+    std::vector<std::string> list_words = read_file();
     list_words.push_back(new_word);
 
     save_archive(list_words);

@@ -1,9 +1,9 @@
 
 #include <string>
-std::string SECRET_WORD
-std::map<char, bool> kicked;
+#include <map>
 
-string SECRET_WORD; 
+std::string SECRET_WORD;
+std::map<char, bool> kicked;
 
 bool didnt_right(){
     for(char letter : SECRET_WORD){
