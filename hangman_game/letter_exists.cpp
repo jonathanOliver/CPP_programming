@@ -1,7 +1,7 @@
 
 #include <string>
 
-std::string SECRET_WORD;
+extern std::string SECRET_WORD;
 
 bool letter_exists(char kick){
     for(char letter : SECRET_WORD){

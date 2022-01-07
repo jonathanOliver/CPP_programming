@@ -4,8 +4,8 @@
 
 #include "letter_exists.hpp"
  
-std::map<char, bool> kicked;
-std::vector<char> wrong_kicks;
+extern std::map<char, bool> kicked;
+extern std::vector<char> wrong_kicks;
 
 void kick_word(){
     std::cout << "Your kick: ";

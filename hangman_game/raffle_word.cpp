@@ -5,7 +5,7 @@
 
 #include "read_file.hpp"
 
-std::string SECRET_WORD; 
+extern std::string SECRET_WORD; 
 
 void raffle_word(){
     std::vector<std::string> words = read_file();

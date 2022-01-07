@@ -2,7 +2,7 @@
 #include <vector>
 #include <iostream>
 
-std::vector<char> wrong_kicks;
+extern std::vector<char> wrong_kicks;
 
 void print_errors(){
     std::cout << "Wrong kicks: ";
