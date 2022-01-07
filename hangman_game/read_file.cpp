@@ -1,10 +1,10 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <ifstream>
+#include <fstream>
 
 
-vector<string> read_file(){
+std::vector<string> read_file(){
     std::ifstream archive;
     archive.open("words.txt");
 
