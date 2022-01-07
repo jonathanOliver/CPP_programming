@@ -1,9 +1,9 @@
 #include <iostream>
 #include <vector>
-#include <ofstream>
+#include <fstream>
 #include <string>
 
-void save_archive(vector<string> new_list){
+void save_archive(std::vector<std::string> new_list){
     std::ofstream archive;
     archive.open("words.txt");
     if(archive.is_open()){
