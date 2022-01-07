@@ -1,0 +1,1 @@
+void kick_word();

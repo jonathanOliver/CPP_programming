@@ -1,0 +1,1 @@
+void raffle_word();

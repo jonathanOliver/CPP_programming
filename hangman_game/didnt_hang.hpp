@@ -1,0 +1,1 @@
+bool didnt_hang();
